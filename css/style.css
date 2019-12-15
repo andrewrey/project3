@@ -26,9 +26,26 @@ header {
 
 
 
-/* Elements -------------------- */
+/* Containers / wraps -------------------- */
 
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.signup_text {
+  text-align: center;
+  border-bottom: 4px solid black;
+  margin-bottom: 2px;
+}
 
+/* Form -------------------- */
+
+form {
+  border-top: 2px solid black;
+} 
+fieldset {
+  border: none;
+}
 
 /* Media Queries -------------------- */
 
