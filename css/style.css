@@ -6,7 +6,10 @@
 
 h1{
   margin: 0;
+}
 
+input[placeholder] {
+  text-align: right;
 }
 /* Section Styles -------------------- */
 header {
@@ -17,7 +20,9 @@ header {
   text-transform: uppercase;
 }
 
-
+.contact {
+  border-bottom: 2px solid black;
+}
 
 
 /* Pseudo-classes -------------------- */
@@ -42,9 +47,13 @@ header {
 
 form {
   border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
 } 
 fieldset {
   border: none;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media Queries -------------------- */
