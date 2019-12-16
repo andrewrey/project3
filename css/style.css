@@ -44,17 +44,16 @@ header {
 }
 
 /* Form -------------------- */
-
 form {
   border-top: 2px solid black;
-  display: flex;
-  flex-direction: column;
-} 
+}
+
 fieldset {
   border: none;
   display: flex;
-  flex-direction: column;
 }
+
+
 
 /* Media Queries -------------------- */
 
