@@ -20,10 +20,6 @@ header {
   text-transform: uppercase;
 }
 
-.contact {
-  border-bottom: 2px solid black;
-}
-
 
 /* Pseudo-classes -------------------- */
 
@@ -33,26 +29,43 @@ header {
 
 /* Containers / wraps -------------------- */
 
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-.signup_text {
-  text-align: center;
-  border-bottom: 4px solid black;
-  margin-bottom: 2px;
-}
+
 
 /* Form -------------------- */
+
 form {
-  border-top: 2px solid black;
+  max-width: 480px;
+  background: #f4fafd;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.sign_up {
+  text-align: center;
+  border-bottom: 4px solid black;
 }
 
 fieldset {
   border: none;
-  display: flex;
+  border-top: 2px solid black;
+  margin: 2px 0 0 0;
+
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  background: #e9eff3;
+  padding: 10px 0;
 }
 
+input,
+select, 
+textarea {
+  margin-bottom: 15px;
+  width: 100%;
+}
 
 
 /* Media Queries -------------------- */
