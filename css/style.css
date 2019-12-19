@@ -90,6 +90,12 @@ label.inline {
 input {
   background: #e9eff3;
   padding: 10px 0;
+  transition: background 1s;
+}
+
+input:focus {
+  background: lightgreen;
+
 }
 
 input[type="text"],
@@ -99,6 +105,16 @@ select,
 textarea {
   margin-bottom: 15px;
   width: 100%;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  background-image: url("img/heli.png");
+  background-repeat: no-repeat;
+  background-position: left;
+
 }
 #postal_zip {
   width: 40%;
