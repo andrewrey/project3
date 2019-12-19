@@ -106,6 +106,12 @@ textarea {
 }
 
 
+input[type="email"]:invalid:focus,
+input[type="tel"]:invalid:focus {
+  background: red;
+}
+
+
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
