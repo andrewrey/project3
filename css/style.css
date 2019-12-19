@@ -107,6 +107,7 @@ input {
   background: #e9eff3;
   padding: 10px 0;
   transition: background 1s;
+  text-align: center;
 }
 
 input::placeholder{
