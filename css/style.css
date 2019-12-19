@@ -6,8 +6,13 @@
 
 h1{
   margin: 0;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
 }
-
+h2,
+label {
+  font-family: 'Concert One', cursive;
+}
 /* Section Styles -------------------- */
 header {
   background: black;
@@ -17,14 +22,23 @@ header {
   text-transform: uppercase;
 }
 
+
+
 footer {
   text-align: center;
   padding-bottom: 40px;
+  color: lightgrey;
 
 }
-/* Pseudo-classes -------------------- */
+
+.contact {
+  background: #DEE6E3;
+}
 
 
+.newsletter {
+  background: #D1D6D4;
+}
 /* Clearfix -------------------- */
 
 .group:after {
@@ -32,9 +46,6 @@ footer {
   display: table;
   clear: both;
 }
-
-
-/* Containers / wraps -------------------- */
 
 
 
@@ -49,7 +60,7 @@ form {
 }
 
 button {
-  width: 90%;
+  width: 100%;
   padding: 15px 40px;
   background-color: #2daec2;
   color: whitesmoke;
@@ -66,8 +77,11 @@ legend {
 .sign_up {
   text-align: center;
   border-bottom: 4px solid black;
+  padding-bottom: 8px;
 }
-
+.sign_up p {
+  color: lightgrey;
+}
 fieldset {
   border: none;
   border-top: 2px solid black;
@@ -139,6 +153,13 @@ input[type="checkbox"] {
 
 }
 
+.contact legend {
+  margin-bottom: 15px;
+}
+
+.newsletter {
+  margin-bottom: 25px;
+}
 /* Media Queries -------------------- */
 
 @media (min-width: 768px ) {
