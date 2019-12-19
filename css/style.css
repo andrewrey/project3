@@ -100,11 +100,16 @@ label.inline {
   display: inline;
   margin-left: 5px;
 }
-
+select {
+  height: 42px;
+}
 input {
   background: #e9eff3;
   padding: 10px 0;
   transition: background 1s;
+}
+
+input::placeholder{
   text-align: right;
 }
 
